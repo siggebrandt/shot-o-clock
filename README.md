@@ -1,4 +1,6 @@
-# myApp
+# Shot´oClock
+
+
 
 
 ### Kommandon för terminalen för att testa
