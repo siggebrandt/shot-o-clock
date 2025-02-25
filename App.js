@@ -1,3 +1,4 @@
+import "./App.css";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { Button } from "react-native-web";
@@ -5,30 +6,29 @@ import { Button } from "react-native-web";
 export default function App() {
   return (
     <>
-    <View style={styles.container}>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
+      <View style={styles.container}>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
+        <View style={style1.container}>
+          <Text style={style1.text}>hej</Text>
+        </View>
       </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-      <View style={style1.container}>
-        <Text style={style1.text}>hej</Text>
-      </View>
-    </View>
-    
     </>
   );
 }
@@ -56,16 +56,14 @@ const style1 = StyleSheet.create({
     borderWidth: 10,
     borderColor: "pink",
     shadowColor: "red",
-    shadowOffset: {width: 5, height: 3},
+    shadowOffset: { width: 5, height: 3 },
     shadowOpacity: 0.3,
     shadowRadius: 10,
-    elevation: 5
+    elevation: 5,
   },
   text: {
     color: "green",
     fontSize: 50,
-    textAlign: "center"
+    textAlign: "center",
   },
 });
-
-
