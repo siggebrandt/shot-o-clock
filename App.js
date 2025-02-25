@@ -6,6 +6,7 @@ import { Button } from "react-native-web";
 export default function App() {
   return (
     <>
+      <Text>Shot´oClock</Text>
       <View style={styles.container}>
         <View style={style1.container}>
           <Text style={style1.text}>hej</Text>
