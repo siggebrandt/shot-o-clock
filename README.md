@@ -1,8 +1,11 @@
 # myApp
 
-### Kommandon för terminalen
+
+### Kommandon för terminalen för att testa
 ```cd myApp``` -> 
-* ```npm run web``` / ```npx expo start --web```(testa direkt på datorn)
-* ```npx expo start``` (skapa QR för att testa på mobil)
-  * ```npx expo start --ios``` (iOS Emulator)
-  * ```npx expo start --android```(Android Emulator)
+Starta expo och generera QR kod: ```npx expo start``` <!-- npm run web -->
+Alternativt ```npx expo start web``` för att direkt testa i webbläsaren
+
+Användning av emulatorer 
+* ```npx expo start --ios``` (iOS Emulator)
+* ```npx expo start --android```(Android Emulator)
