@@ -4,7 +4,7 @@
 
 
 ### Kommandon för terminalen för att testa
-```cd myApp``` ->   
+```cd app``` ->   
 Starta expo och generera QR kod: ```npx expo start``` <!-- npm run web -->    
 Alternativt ```npx expo start --web``` för att direkt testa i webbläsaren
 
