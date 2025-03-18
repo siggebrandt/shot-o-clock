@@ -1,0 +1,130 @@
+@font-face {
+    font-family: neon;
+    src: url(../fonts/Neonderthaw/Neonderthaw-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+}
+
+#logoStart{
+    border-bottom: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+
+#logo{
+    margin: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+#shot{
+    display: flex;
+}
+
+.logo1{
+    padding-right: 10px;
+    font-size: 45px;
+    font-family: neon;
+}
+
+#shot h1{
+    margin: -5px;
+}
+
+#h1{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #ff4d4d, 0 0 10px #ff4d4d, 0 0 15px #ff0000;
+}
+#h2{
+    color: rgb(255, 127, 0);
+    text-shadow: 0 0 5px #ffb347, 0 0 10px #ffb347, 0 0 15px #ff7f00;
+}
+
+#h3{
+    color: rgb(207, 255, 4);
+    text-shadow: 0 0 5px #ffff80, 0 0 10px #ffff80, 0 0 15px #cfff04;
+}
+
+#h4{
+    color: rgb(191, 255, 0);
+    text-shadow: 0 0 5px #d4ff4d, 0 0 10px #d4ff4d, 0 0 15px #bfff00;
+}
+
+#h5{
+    color: 	rgb(57, 255, 20);
+    text-shadow: 0 0 5px #7fff7f, 0 0 10px #7fff7f, 0 0 15px #39ff14;
+}
+
+#h6{
+    color: rgb(64, 224, 208);
+    text-shadow: 0 0 5px #a1f0e1, 0 0 10px #a1f0e1, 0 0 15px #40e0d0;
+}
+
+#h7{
+    color: 	rgb(0, 255, 255);
+    text-shadow: 0 0 5px #80ffff, 0 0 10px #80ffff, 0 0 15px #00ffff;
+}
+
+#h8{
+    color: rgb(77, 77, 255);
+    text-shadow: 0 0 5px #9999ff, 0 0 10px #9999ff, 0 0 15px #4d4dff;
+}
+
+#h9{
+	color: rgb(188, 19, 254);
+    text-shadow: 0 0 5px #e580ff, 0 0 10px #e580ff, 0 0 15px #bc13fe;
+}
+
+#h10{
+	color: rgb(255, 20, 147);
+    text-shadow: 0 0 5px #ff80b0, 0 0 10px #ff80b0, 0 0 15px #ff1493;
+}
+
+#logo2{
+    font-size: 20px;
+    color: pink;
+}
+
+#headerLinks{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    text-decoration: none;
+    color: #00ffff;
+    width: 100px;
+    text-align: center;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    margin: 20px auto;
+    width: 80%;
+    height: 1000px;
+}
+
+#ruta1{background-color: #9999ff;}
+
+#ruta2{
+    background-color: #40e0d0;
+}
